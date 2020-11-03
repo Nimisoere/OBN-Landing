@@ -1,0 +1,2259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>OBN</title>
+</head>
+
+<body>
+  <header class="w-full leaderboard z-10" id="header">
+    <div class="container mx-auto flex flex-wrap items-center py-2 justify-between">
+      <div class="w-1/5 logo">
+        <a href="/">
+          <img src="assets/obn.png" class="h-16" alt="">
+        </a>
+      </div>
+      <div class="w-4/5 flex justify-end flex-wrap relative">
+        <button id="mobile-toggle" class="flex sm:hidden text-white">
+          <i class="fa fa-bars text-2xl"></i>
+        </button>
+        <nav id="menu" class="bg-black absolute sm:relative mobile-menu sm:bg-transparent menu w-full sm:w-auto hidden sm:flex flex-wrap">
+          <ul class="flex flex-wrap">
+            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Home</a></li>
+            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">About Us</a></li>
+            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Services</a></li>
+            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Shop</a></li>
+            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Contact Us</a></li>
+            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Book Now</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <main class="w-full flex ">
+      <section class="container flex mx-auto h-full items-center justify-center">
+        <section class="text-center">
+          <span class="tracking-tight leading-none font-bold text-6xl text-white uppercase">
+            Experience<br />the sport<br /><span class="text-transparent stroke-text__white">One by One</span>
+          </span>
+        </section>
+      </section>
+    </main>
+  </header>
+
+  <section id="brands" class="w-full">
+    <section class="container mx-auto">
+      <div class="slick-slider" id="slider">
+        <div class="slide"><img src="assets/allianz.png" alt=""></div>
+        <div class="slide"><img src="assets/capgemini.png" alt=""></div>
+        <div class="slide"><img src="assets/deutsche.png" alt=""></div>
+        <div class="slide"><img src="assets/metro.png" alt=""></div>
+        <div class="slide"><img src="assets/ubs.png" alt=""></div>
+        <div class="slide"><img src="assets/deutsche.png" alt=""></div>
+        <div class="slide"><img src="assets/metro.png" alt=""></div>
+        <div class="slide"><img src="assets/ubs.png" alt=""></div>
+      </div>
+    </section>
+  </section>
+
+  <section id="what-we-do" class="w-full py-24 text-white grained-background">
+    <section class="container items-center flex flex-wrap mx-auto">
+      <div class="section-img flex items-center justify-center w-full sm:w-1/2">
+        <div class="image-frame">
+          <div class="image-holder">
+            <img class="" src="assets/african-american-teenage-boy-concentrated.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="section-text space-y-4 w-full sm:w-1/2">
+        <p class="font-thin text-xl">What we do</p>
+        <p class="tracking-tight leading-none font-bold text-6xl text-white uppercase">Experience <br /><span
+            class="text-transparent stroke-text__white">the sport</span></p>
+        <p class="font-light alternate-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero iste illum
+          placeat
+          asperiores eaque qui,
+          nobis dolorum molestiae consectetur perspiciatis alias inventore mollitia dolor autem. Accusamus odio qui
+          magnam perspiciatis.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero iste illum placeat
+          asperiores eaque qui,
+          nobis dolorum molestiae consectetur perspiciatis alias inventore mollitia dolor autem. Accusamus odio qui
+          magnam perspiciatis. </p>
+        <p>
+          <a class="inline-block border border-white border-solid py-3 px-8" href="">Learn More</a>
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <section id="play" class="w-full text-white raptors-background h-64">
+    <div class="container items-center h-full justify-center flex mx-auto">
+      <a class="border border-white border-solid rounded-full hover:bg-orange-400 hover:border-orange-400 w-48 items-center justify-center flex h-48"
+        href="">
+        <span class="text-transparent rounded font-bold uppercase text-6xl stroke-text__white">Play</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="w-full py-24 text-white grained-background">
+    <section class="container items-center flex-wrap flex mx-auto">
+      <div class="section-text sm:mb-0 mb-8 space-y-4 w-full sm:w-1/2">
+        <p class="font-thin text-xl">How it works</p>
+        <p class="tracking-tight leading-none font-bold text-6xl text-white uppercase">Only a few<br /><span
+            class="text-transparent stroke-text__white">steps to begin</span></p>
+        <p>
+          <a class="inline-block border border-white border-solid py-3 px-8" href="">Learn More</a>
+        </p>
+      </div>
+      <div class="section-img flex items-center justify-center w-full sm:w-1/2">
+        <div class="image-frame">
+          <div class="image-holder">
+            <img class="" src="assets/african-american-teenage-boy-concentrated.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="we-work-with" class="w-full border-b border-gray-400  py-16">
+    <section class="container mx-auto">
+      <h3 class="text-6xl font-bold uppercase leading-none">
+        We work with the <br /> best in the game
+      </h3>
+      <div class="flex flex-wrap w-full we-work-with">
+        <div class="w-full sm:w-1/4"><img src="assets/rakuten.png" alt=""></div>
+        <div class="w-full sm:w-1/4"><img src="assets/cpc.png" alt=""></div>
+        <div class="w-full sm:w-1/4"><img src="assets/ignite.png" alt=""></div>
+        <div class="w-full sm:w-1/4"><img src="assets/chex.png" alt=""></div>
+        <div class="w-full sm:w-1/4"><img src="assets/zelle.png" alt=""></div>
+        <div class="w-full sm:w-1/4"><img src="assets/intel.png" alt=""></div>
+        <div class="w-full sm:w-1/4"><img src="assets/generalmills.png" alt=""></div>
+        <div class="w-full sm:w-1/4"><img src="assets/timberland-logo.png" alt=""></div>
+      </div>
+    </section>
+  </section>
+
+  <section id="camp-overview" class="py-12 border-b border-gray-400 w-full">
+    <section class="container mx-auto">
+      <nav class="tab-nav flex mb-4 border-b border-t border-gray-200">
+        <button onclick="openTab(event, 'overview', 'tabcontent', 'tablinks')"
+          class="tablinks px-8 py-4 border-b-4 border-black hover:border-black">Camp
+          Overview</button>
+        <button onclick="openTab(event, 'schedule', 'tabcontent', 'tablinks')"
+          class="tablinks px-8 py-4 border-b-4 hover:border-black">Schedule</button>
+        <button onclick="openTab(event, 'coaching', 'tabcontent', 'tablinks')"
+          class="tablinks px-8 py-4 border-b-4 hover:border-black">Coaching</button>
+        <button onclick="openTab(event, 'achievements', 'tabcontent', 'tablinks')"
+          class="tablinks px-8 py-4 border-b-4 hover:border-black">Achievements</button>
+      </nav>
+      <div id="overview" class="tabcontent w-full flex flex-wrap">
+        <div class="w-full sm:w-1/2 px-2">
+          <h4 class="font-bold mb-4 text-3xl">BASKETBALL CAMP OVERVIEW</h4>
+          <p class="mb-4 alternate-font">
+            IMG Academy boys basketball camps incorporate small-group training sessions as well as position-specific
+            drills that prepare players of all levels for their upcoming tryouts, league season, and even for the
+            collegiate level. The same coaching staff who led IMG to the 2019 GEICO National Championship game works
+            directly with IMG campers to hone their technical, tactical, and strategic skills during each session.
+          </p>
+          <p class="mb-4 alternate-font">
+            Camp programs include on-court group sessions that focus on shooting, dribbling, defense, and more. All
+            basketball campers will receive a post-camp analysis report inclusive of coach feedback and important
+            takeaways.
+          </p>
+        </div>
+        <div class="w-full sm:w-1/2">
+          <img src="assets/obncourt.jpg" class="w-full" alt="">
+        </div>
+      </div>
+      <div id="schedule" class="tabcontent w-full hidden overflow-x-scroll flex-wrap">
+        <table class="schedule-table w-full table-auto">
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th><span>AM</span> <span>Session</span></th>
+              <th><span>PM</span> <span>Session</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
+              <td>Performance<br>Skill Drilling<br>Competitive Drills<br>Competition</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
+              <td>Performance<br>Skill Drilling<br>Game Play/Situations</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>Regen Shooting<br>Team Drilling Competition</td>
+              <td>Performance<br>Skill Drilling<br>Competitive Drills<br>Competition</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
+              <td>Performance<br>Skill Drilling<br>Game Play/Situations</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>Skill Drilling<br>Game Play<br>Classroom</td>
+              <td>Performance<br>Skill Drilling<br>Game Play</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">
+                <p class="alternate-font font-bold">Curriculum includes classroom sessions in coordination with on-court
+                  activity and additional
+                  optional opportunities to train.</p>
+                <p class="alternate-font">OBN Camp Includes:</p>
+                <ul class="alternate-font">
+                  <li>3 Strength &amp; Conditioning Sessions</li>
+                  <li>1 Mental Conditioning Session</li>
+                </ul>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div id="coaching" class="tabcontent w-full hidden flex-wrap">
+        <div class="w-full">
+          <div class="flex flex-wrap">
+            <div class="w-full sm:w-1/2 px-2 mb-4">
+              <h4 class="font-bold mb-4 text-3xl uppercase">Our coaching staff</h4>
+              <p class="mb-4 alternate-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis recusandae praesentium qui
+                voluptas ad, nam, voluptatibus quos impedit eligendi sapiente, consequuntur officiis fugit nesciunt.
+                Rem, numquam? Cum, fugiat illum.Voluptatem vero animi, debitis obcaecati pariatur ea facere dolor enim
+                totam error illo alias repellendus beatae illum distinctio. Omnis id optio cum harum veritatis iure
+                quisquam quo dolore officia reiciendis.
+              </p>
+            </div>
+            <div class="w-full sm:w-1/2">
+              <img src="assets/OBNCourtLettering-1.png" class="w-full" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="w-full">
+          <div class="flex flex-wrap">
+            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
+              <img class="w-full" src="https://i.pravatar.cc/300?img=7" alt="">
+              <div class="p-4">
+                <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                <p class="alternate-font">Basketball Coach</p>
+              </div>
+            </div>
+            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
+              <img class="w-full" src="https://i.pravatar.cc/300?img=3" alt="">
+              <div class="p-4">
+                <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                <p class="alternate-font">Basketball Coach</p>
+              </div>
+            </div>
+            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
+              <img class="w-full" src="https://i.pravatar.cc/300?img=8" alt="">
+              <div class="p-4">
+                <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                <p class="alternate-font">Basketball Coach</p>
+              </div>
+            </div>
+            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
+              <img class="w-full" src="https://i.pravatar.cc/300?img=9" alt="">
+              <div class="p-4">
+                <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                <p class="alternate-font">Basketball Coach</p>
+              </div>
+            </div>
+            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
+              <img class="w-full" src="https://i.pravatar.cc/300?img=2" alt="">
+              <div class="p-4">
+                <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                <p class="alternate-font">Basketball Coach</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="achievements" class="tabcontent w-full hidden flex-wrap">
+        <div class="text-center">
+          <h4 class="text-3xl font-bold">Achievements</h4>
+          <hr class="my-8" />
+          <div class="alternate-font">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error neque quas molestias ratione
+              eligendi mollitia incidunt ullam, pariatur at soluta aspernatur ab ducimus accusamus possimus fuga tempore
+              temporibus! Tempore.Accusantium veniam eos odio error delectus ipsa commodi magni at tempora, cumque
+              molestiae itaque eaque
+              eveniet reiciendis? Similique perferendis quos explicabo atque ab quisquam fuga maxime! Deleniti quas
+              reiciendis sequi?</p>
+            <p>Magnam debitis laudantium nemo itaque nobis sunt enim qui nihil a fuga! Expedita consectetur quidem iusto
+              nisi adipisci. Aspernatur id distinctio, deserunt repudiandae rerum voluptatem eos libero cumque nesciunt
+              sed! Eius, odit tempore magnam explicabo recusandae voluptatum possimus doloribus doloremque illo libero,
+              velit ratione illum impedit sed nulla quis perferendis est quae! Culpa, laborum quis nostrum quaerat
+              exercitationem nulla iste! Quia distinctio neque, hic fuga vel asperiores dignissimos earum, accusantium
+              quas explicabo totam
+              maiores inventore ipsam, delectus illum culpa error numquam! Esse non molestias dolore cumque cupiditate
+              iste, amet enim.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="camp-plans" class="py-12 w-full">
+    <section class="container mx-auto">
+      <nav class="tab-nav flex mb-4 border-b border-t border-gray-200">
+        <button onclick="openTab(event, '6day', 'tabcontent2', 'tablinks2')"
+          class="tablinks2 px-8 py-4 border-b-4 border-black hover:border-black">6
+          Days Camp</button>
+        <button onclick="openTab(event, '3day', 'tabcontent2', 'tablinks2')"
+          class="tablinks2 px-8 py-4 border-b-4 hover:border-black">3 Days
+          Camp</button>
+        <button onclick="openTab(event, '3week', 'tabcontent2', 'tablinks2')"
+          class="tablinks2 px-8 py-4 border-b-4 hover:border-black">3 Week
+          Camp</button>
+        <button onclick="openTab(event, 'weekly', 'tabcontent2', 'tablinks2')"
+          class="tablinks2 px-8 py-4 border-b-4 hover:border-black">Weekly
+          Camp</button>
+      </nav>
+      <div id="6day" class="tabcontent2 overflow-x-scroll w-full flex flex-wrap">
+        <table class="w-full table-auto schedule-table">
+          <thead>
+            <tr>
+              <td rowspan="2">
+                <a href="#"
+                  class="border-double border-4 border-gray-600 rounded px-4 text-transparent uppercase stroke-text__black font-bold text-4xl ">
+                  Recommended
+                </a>
+              </td>
+              <td>
+                <div class="">Foundation of All Camps</div>
+              </td>
+              <td colspan="3">
+                <div class="relative border-r border-l border-gray-200 flex justify-center items-center">
+                  <div class="bg-white px-4 z-10">Limited Availability</div>
+                  <div class="absolute w-full z-0">
+                    <hr>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">OBN CAMP</div>
+                  <div class="age">Ages 10-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Total Athlete</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Breakthrough</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Game Changer</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div>Progressive training with our expert coaches</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Two sport-specific training sessions per day</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Four core strength &amp; conditioning sessions</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>One core mental toughness session</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Coach’s Training Evaluation</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="laundry-item">Sheets</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Daily meals &amp; hydration</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Additional <a href="#camp-experience" class="open-ce-specializations">training specialization</a>
+                  per day</div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div><a href="#" class="personalized-popup">Personalized training sessions with coach</a></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Customized instruction</div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <h4>Need Help Choosing?</h4>
+                <nav class="flex my-4 alternate-font text-sm justify-between">
+                  <a class="underline text-orange-400" href="#choosing-camp">View Helpful Tips</a>
+                  <a class="underline text-orange-400" href="#camp-experience">View Camp Details</a>
+                  <a class="underline text-orange-400" href="#faq-widget">View FAQs</a>
+                  <a class="underline text-orange-400" href="/special-rates">View Special Rates</a>
+                </nav>
+                <div class="flex justify-end items-center">
+                  <span class="mr-4">Boarding Included?</span>
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl">$2,529</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1030">$3,049</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1120">$3,429</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1250">$3,949</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div id="3day" class="tabcontent2 overflow-x-scroll w-full hidden flex-wrap">
+        <table class="w-full table-auto schedule-table">
+          <thead>
+            <tr>
+              <td rowspan="2">
+                <a href="#"
+                  class="border-double border-4 border-gray-600 rounded px-4 text-transparent uppercase stroke-text__black font-bold text-4xl ">
+                  Recommended
+                </a>
+              </td>
+              <td>
+                <div class="">Foundation of All Camps</div>
+              </td>
+              <td colspan="3">
+                <div class="relative border-r border-l border-gray-200 flex justify-center items-center">
+                  <div class="bg-white px-4 z-10">Limited Availability</div>
+                  <div class="absolute w-full z-0">
+                    <hr>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">OBN CAMP</div>
+                  <div class="age">Ages 10-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Total Athlete</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Breakthrough</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Game Changer</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div>Progressive training with our expert coaches</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Two sport-specific training sessions per day</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Four core strength &amp; conditioning sessions</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>One core mental toughness session</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Coach’s Training Evaluation</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="laundry-item">Sheets</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Daily meals &amp; hydration</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Additional <a href="#camp-experience" class="open-ce-specializations">training specialization</a>
+                  per day</div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div><a href="#" class="personalized-popup">Personalized training sessions with coach</a></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Customized instruction</div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <h4>Need Help Choosing?</h4>
+                <nav class="flex my-4 alternate-font text-sm justify-between">
+                  <a class="underline text-orange-400" href="#choosing-camp">View Helpful Tips</a>
+                  <a class="underline text-orange-400" href="#camp-experience">View Camp Details</a>
+                  <a class="underline text-orange-400" href="#faq-widget">View FAQs</a>
+                  <a class="underline text-orange-400" href="/special-rates">View Special Rates</a>
+                </nav>
+                <div class="flex justify-end items-center">
+                  <span class="mr-4">Boarding Included?</span>
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl">$2,529</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1030">$3,049</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1120">$3,429</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1250">$3,949</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div id="3week" class="tabcontent2 overflow-x-scroll w-full hidden flex-wrap">
+        <table class="w-full table-auto schedule-table">
+          <thead>
+            <tr>
+              <td rowspan="2">
+                <a href="#"
+                  class="border-double border-4 border-gray-600 rounded px-4 text-transparent uppercase stroke-text__black font-bold text-4xl ">
+                  Recommended
+                </a>
+              </td>
+              <td>
+                <div class="">Foundation of All Camps</div>
+              </td>
+              <td colspan="3">
+                <div class="relative border-r border-l border-gray-200 flex justify-center items-center">
+                  <div class="bg-white px-4 z-10">Limited Availability</div>
+                  <div class="absolute w-full z-0">
+                    <hr>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">OBN CAMP</div>
+                  <div class="age">Ages 10-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Total Athlete</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Breakthrough</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Game Changer</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div>Progressive training with our expert coaches</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Two sport-specific training sessions per day</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Four core strength &amp; conditioning sessions</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>One core mental toughness session</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Coach’s Training Evaluation</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="laundry-item">Sheets</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Daily meals &amp; hydration</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Additional <a href="#camp-experience" class="open-ce-specializations">training specialization</a>
+                  per day</div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div><a href="#" class="personalized-popup">Personalized training sessions with coach</a></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Customized instruction</div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <h4>Need Help Choosing?</h4>
+                <nav class="flex my-4 alternate-font text-sm justify-between">
+                  <a class="underline text-orange-400" href="#choosing-camp">View Helpful Tips</a>
+                  <a class="underline text-orange-400" href="#camp-experience">View Camp Details</a>
+                  <a class="underline text-orange-400" href="#faq-widget">View FAQs</a>
+                  <a class="underline text-orange-400" href="/special-rates">View Special Rates</a>
+                </nav>
+                <div class="flex justify-end items-center">
+                  <span class="mr-4">Boarding Included?</span>
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl">$2,529</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1030">$3,049</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1120">$3,429</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1250">$3,949</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div id="weekly" class="tabcontent2 overflow-x-scroll w-full hidden flex-wrap">
+        <table class="w-full table-auto schedule-table">
+          <thead>
+            <tr>
+              <td rowspan="2">
+                <a href="#"
+                  class="border-double border-4 border-gray-600 rounded px-4 text-transparent uppercase stroke-text__black font-bold text-4xl ">
+                  Recommended
+                </a>
+              </td>
+              <td>
+                <div class="">Foundation of All Camps</div>
+              </td>
+              <td colspan="3">
+                <div class="relative border-r border-l border-gray-200 flex justify-center items-center">
+                  <div class="bg-white px-4 z-10">Limited Availability</div>
+                  <div class="absolute w-full z-0">
+                    <hr>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">OBN CAMP</div>
+                  <div class="age">Ages 10-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Total Athlete</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Breakthrough</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+              <td class="border border-white bg-gray-200">
+                <div class="head">
+                  <div class="program">Game Changer</div>
+                  <div class="age">Ages 11-18</div>
+                </div>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div>Progressive training with our expert coaches</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Two sport-specific training sessions per day</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Four core strength &amp; conditioning sessions</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>One core mental toughness session</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Coach’s Training Evaluation</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="laundry-item">Sheets</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Daily meals &amp; hydration</div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Additional <a href="#camp-experience" class="open-ce-specializations">training specialization</a>
+                  per day</div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div><a href="#" class="personalized-popup">Personalized training sessions with coach</a></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>Customized instruction</div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="dash"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+              <td>
+                <div class="ascender"></div>
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <h4>Need Help Choosing?</h4>
+                <nav class="flex my-4 alternate-font text-sm justify-between">
+                  <a class="underline text-orange-400" href="#choosing-camp">View Helpful Tips</a>
+                  <a class="underline text-orange-400" href="#camp-experience">View Camp Details</a>
+                  <a class="underline text-orange-400" href="#faq-widget">View FAQs</a>
+                  <a class="underline text-orange-400" href="/special-rates">View Special Rates</a>
+                </nav>
+                <div class="flex justify-end items-center">
+                  <span class="mr-4">Boarding Included?</span>
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl">$2,529</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1030">$3,049</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1120">$3,429</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+              <td class="text-center">
+                <div class="uppercase font-bold text-3xl" data-boarding-fee="1250">$3,949</div>
+                <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
+                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                  Book Now
+                </a>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section id="camp-booking" class="py-12 grained-background w-full">
+    <section class="container mx-auto">
+      <div>
+        <div class="flex justify-center">
+          <img src="assets/obnhoopcenter.png" class="h-24" alt="" />
+        </div>
+        <div class="flex flex-wrap">
+          <div
+            class="flex sm:justify-end justify-center mb-4 px-8 items-center text-center sm:text-right w-full sm:w-1/2">
+            <p class="tracking-tight leading-none font-bold text-4xl text-white uppercase">Build your camp<br /><span
+                class="text-transparent stroke-text__white">online camp builder</span></p>
+          </div>
+          <div class="w-full sm:w-1/2">
+            <div class="bg-white p-4 orange-shadow">
+              <h4 class="font-bold text-3xl mb-4 uppercase">REGISTRATION</h4>
+              <div class="flex flex-wrap">
+                <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+                  <span class="w-full">First name</span>
+                  <input type="text" class="p-2 w-full border border-black" />
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+                  <span class="w-full">Last name</span>
+                  <input type="text" class="p-2 w-full border border-black" />
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+                  <span class="w-full">Phone number<span class="text-sm font-light"> - include country code
+                      (+234)</span></span>
+                  <input type="text" class="p-2 w-full border border-black" />
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+                  <span class="w-full">Email</span>
+                  <input type="text" class="p-2 w-full border border-black" />
+                </div>
+              </div>
+              <div class="w-full mt-4 flex justify-center">
+                <button id="register-btn" class="uppercase p-2 hover:text-white hover:bg-black border border-black">
+                  Register
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="faqs" class="py-12 w-full">
+    <section class="container flex flex-wrap mx-auto">
+      <div class="w-full sm:w-1/4 py-2">
+        <div>
+          <h4 class="uppercase leading-none mb-4 font-bold text-4xl">Frequently asked questions</h4>
+          <p class="alternate-font">Can't find what your looking for?</p>
+          <p class="alternate-font">Reach out to our customer care team</p>
+        </div>
+      </div>
+      <div class="w-full sm:w-3/4 py-2">
+        <div class="questions">
+          <div class="question-wrapper">
+            <h4 class="uppercase flex justify-between mb-4 leading-none font-bold text-lg question">
+              <span>How do I register with the OBN Academy?</span>
+              <button class="fa fa-chevron-down text-gray-400"></button>
+            </h4>
+            <div class="answer">
+              <p class="alternate-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore molestias
+                eligendi nam pariatur deleniti dignissimos voluptates commodi eum perferendis ipsam libero enim tenetur
+                nihil, iste quia possimus reiciendis doloribus unde.</p>
+            </div>
+          </div>
+          <div class="question-wrapper">
+            <h4 class="uppercase flex justify-between mb-4 leading-none font-bold text-lg question">
+              <span>How do I register with the OBN Academy?</span>
+              <button class="fa fa-chevron-down text-gray-400"></button>
+            </h4>
+            <div class="answer">
+              <p class="alternate-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore molestias
+                eligendi nam pariatur deleniti dignissimos voluptates commodi eum perferendis ipsam libero enim tenetur
+                nihil, iste quia possimus reiciendis doloribus unde.</p>
+            </div>
+          </div>
+          <div class="question-wrapper">
+            <h4 class="uppercase flex justify-between mb-4 leading-none font-bold text-lg question">
+              <span>How do I register with the OBN Academy?</span>
+              <button class="fa fa-chevron-down text-gray-400"></button>
+            </h4>
+            <div class="answer">
+              <p class="alternate-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore molestias
+                eligendi nam pariatur deleniti dignissimos voluptates commodi eum perferendis ipsam libero enim tenetur
+                nihil, iste quia possimus reiciendis doloribus unde.</p>
+            </div>
+          </div>
+          <div class="question-wrapper">
+            <h4 class="uppercase flex justify-between mb-4 leading-none font-bold text-lg question">
+              <span>How do I register with the OBN Academy?</span>
+              <button class="fa fa-chevron-down text-gray-400"></button>
+            </h4>
+            <div class="answer">
+              <p class="alternate-font">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore molestias
+                eligendi nam pariatur deleniti dignissimos voluptates commodi eum perferendis ipsam libero enim tenetur
+                nihil, iste quia possimus reiciendis doloribus unde.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="contact-us" class="grained-background w-full">
+    <section class="container mx-auto py-12">
+      <div class="w-full">
+        <h4 class="text-white text-center font-bold uppercase text-4xl mb-4">Contact Us</h4>
+        <div class="bg-white px-4 py-12 pb-4 orange-shadow">
+          <div class="flex flex-wrap">
+            <div class="w-full sm:w-1/4 border-gray-200 border-r mb-4">
+              <div class="flex mb-4 items-center text-left">
+                <span class="fa fa-phone pr-4"></span>
+                <div>
+                  <p class="alternate-font font-bold">
+                    <span class="font-light text-sm">For enrollment & program registration</span><br />
+                    1-800-872-6425
+                  </p>
+                  <p class="alternate-font font-bold">
+                    <span class="font-light text-sm">For all other inquires</span><br />
+                    1-866-300-4538
+                  </p>
+                </div>
+              </div>
+              <div class="flex mb-4 items-center text-left">
+                <span class="fa fa-envelope pr-4"></span>
+                <div>
+                  <p class="alternate-font">
+                    info@imgacademy.com
+                  </p>
+                </div>
+              </div>
+              <div class="flex mb-4 items-center text-left">
+                <span class="fa fa-home pr-4"></span>
+                <div>
+                  <div class="mb-4 alternate-font font-light text-sm">
+                    <h4 class="font-bold uppercase">Abuja</h4>
+                    <span>
+                      1265 Battery Street, 4th floor<br />
+                      San Francisco, CA 9411<br />
+                      +1 415-284-9916
+                      <span>
+                  </div>
+                  <div class="mb-4 alternate-font font-light text-sm">
+                    <h4 class="font-bold uppercase text-sm">Lagos, Nigera</h4>
+                    <span>
+                      1265 Battery Street, 4th floor<br />
+                      San Francisco, CA 9411<br />
+                      +1 415-284-9916
+                      <span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full sm:w-3/4 px-2 sm:px-4">
+              <div class="text-left mb-4">
+                <h4 class="font-bold">FILL OUT THE FORM BELOW AND A CAMP ADVISOR WILL BE IN TOUCH SOON!</h4>
+                <p class="alternate-font text-sm">By clicking Submit you agree to and have read our <a href=""
+                    class="underline text-orange-400">privacy policy</a></p>
+              </div>
+              <div class="flex flex-wrap">
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4 w-full sm:w-1/2">
+                  <span class="w-full">Request Type</span>
+                  <select type="text" class="p-2 w-full border border-black">
+                    <option>General Enquiry</option>
+                    <option>Book Camp visit</option>
+                  </select>
+                </div>
+              </div>
+              <div class="flex flex-wrap">
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full sm:w-1/2">
+                  <span class="w-full">First name</span>
+                  <input type="text" class="p-2 w-full border border-black" />
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full sm:w-1/2">
+                  <span class="w-full">Last name</span>
+                  <input type="text" class="p-2 w-full border border-black" />
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full sm:w-1/2">
+                  <span class="w-full">Phone number<span class="text-sm font-light"> - include country code
+                      (+234)</span></span>
+                  <input type="text" class="p-2 w-full border border-black" />
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full sm:w-1/2">
+                  <span class="w-full">Email</span>
+                  <input type="text" class="p-2 w-full border border-black" />
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full sm:w-1/2">
+                  <span class="w-full">Gender</span>
+                  <select type="text" class="p-2 w-full border border-black">
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full sm:w-1/2">
+                  <span class="w-full">Age</span>
+                  <input type="number" class="p-2 w-full border border-black" />
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full sm:w-1/2">
+                  <span class="w-full">Camp</span>
+                  <select type="text" class="p-2 w-full border border-black">
+                    <option>Sports Camp</option>
+                    <option>Teens Camp</option>
+                  </select>
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full sm:w-1/2">
+                  <span class="w-full">Sport</span>
+                  <select type="text" class="p-2 w-full border border-black">
+                    <option>Basketball</option>
+                    <option>Tennis</option>
+                  </select>
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full">
+                  <span class="w-full">Country of Residence</span>
+                  <select type="text" class="p-2 w-full border border-black">
+                    <option>Nigeria</option>
+                    <option>USA</option>
+                  </select>
+                </div>
+                <div class="flex mb-4 flex-wrap flex-column pr-0 sm:pr-4  w-full">
+                  <span class="w-full">Message</span>
+                  <textarea rows="4" type="text" class="p-2 w-full border border-black"></textarea>
+                </div>
+              </div>
+              <div class="w-full mt-4 flex justify-center">
+                <button class="uppercase p-2 hover:text-white hover:bg-black border border-black">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+          <iframe class="mt-4"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.4506892211907!2d-122.40422918474755!3d37.80291121831323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580f63afae22b%3A0x7cba3530949b471d!2s1265%20Battery%20St%2C%20San%20Francisco%2C%20CA%2094111%2C%20USA!5e0!3m2!1sen!2sng!4v1604073752523!5m2!1sen!2sng"
+            width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <footer class="bg-black flex text-white">
+    <section class="container mx-auto py-12">
+      <section>
+        <h2 class="text-6xl font-bold uppercase">Connect</h2>
+      </section>
+      <section class="flex flex-wrap mt-8 mb-4">
+        <div class="w-full sm:w-1/5">
+          <h4 class="uppercase font-bold">Explore</h4>
+          <nav class="mt-4 alternate-font font-light text-gray-400">
+            <ul>
+              <li><a class="" href="">work</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="w-full sm:w-1/5">
+          <h4 class="font-bold mb-4 uppercase">Location</h4>
+          <div class="mb-4 alternate-font font-light text-sm text-gray-400">
+            <h4 class="font-bold uppercase">Abuja</h4>
+            <span>
+              1265 Battery Street, 4th floor<br />
+              San Francisco, CA 9411<br />
+              +1 415-284-9916
+              <span>
+          </div>
+          <div class="mb-4 alternate-font font-light text-sm text-gray-400">
+            <h4 class="font-bold uppercase text-sm">Lagos, Nigera</h4>
+            <span>
+              1265 Battery Street, 4th floor<br />
+              San Francisco, CA 9411<br />
+              +1 415-284-9916
+              <span>
+          </div>
+        </div>
+        <div class="w-full sm:w-2/5">
+          <h4 class="font-bold mb-4 uppercase">Contact</h4>
+          <div class="alternate-font flex font-light text-sm text-gray-400">
+            <span class="w-1/2">info@obn.com</span>
+            <span class="w-1/2">info@obn.com</span>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/5">
+          <h4 class="font-bold mb-4 uppercase">Social</h4>
+          <div class="flex justify-between">
+            <a href="#" class="fa fa-facebook hover:text-white text-gray-400"></a>
+            <a href="#" class="fa fa-twitter hover:text-white text-gray-400"></a>
+            <a href="#" class="fa fa-instagram hover:text-white text-gray-400"></a>
+            <a href="#" class="fa fa-youtube hover:text-white text-gray-400"></a>
+            <a href="#" class="fa fa-linkedin hover:text-white text-gray-400"></a>
+          </div>
+        </div>
+      </section>
+    </section>
+  </footer>
+
+  <section class="booking-modal hidden" id="booking-modal">
+    <div class="header text-white py-2 bg-black">
+      <div class="container flex justify-between mx-auto">
+        <img src="assets/obnhoopcenter.png" class="w-48" alt="obn hoop center">
+        <button type="button" id="close-modal">
+          <i class="fa fa-close text-xl"></i>
+        </button>
+      </div>
+    </div>
+    <nav class="flex sticky bg-white top-0 w-full progressbar border-b border-black">
+      <button class="w-1/4 py-4 px-2 yellow-bg">Camp Options</button>
+      <button class="w-1/4 py-4 px-2">Choose Camp</button>
+      <button class="w-1/4 py-4 px-2">Customize Booking</button>
+      <button class="w-1/4 py-4 px-2">Camper Details</button>
+    </nav>
+    <section class="w-full border-b">
+      <div class="container flex flex-wrap py-12 mx-auto">
+        <div class="w-full mb-8">
+          <p class="text-xl">Step 1</p>
+          <h4 class="text-3xl uppercase font-bold">CHOOSE BASKETBALL CAMP OPTIONS</h4>
+        </div>
+        <div class="mb-4 w-full sm:w-1/2 flex flex-wrap">
+          <label class="w-full mb-4">Housing Option</label>
+          <div class="radio-toolbar">
+            <input type="radio" id="radio1" name="radios" value="all" checked>
+            <label for="radio1">Boarding</label>
+
+            <input type="radio" id="radio2" name="radios" value="false">
+            <label for="radio2">Non Boarding</label>
+          </div>
+        </div>
+        <div class="mb-4 w-full sm:w-1/2 flex flex-wrap">
+          <label class="w-full mb-4">Camper Date of Birth</label>
+          <div class="w-full">
+            <input autocomplete="none" class="border w-full border-black p-2" type="text" id="dob">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full py-12 border-b">
+      <div class="container flex flex-wrap mx-auto">
+        <div class="w-full mb-4">
+          <p class="text-xl">Step 2</p>
+          <h4 class="text-3xl uppercase font-bold">Choose your camp</h4>
+        </div>
+        <div class="w-full">
+          <label>Choose a time to get started</label>
+          <select class="border border-black p-2">
+            <optgroup label="2020">
+              <option value="volvo">October - December</option>
+            </optgroup>
+            <optgroup label="2021">
+              <option value="volvo">January - March</option>
+              <option value="volvo">April - July</option>
+            </optgroup>
+          </select>
+          <button class="font-light underline">* Compare Training Programs <i class="fa fa-info"></i></button>
+        </div>
+        <div class="w-full">
+          <nav class="tab-nav flex mb-4 border-b border-t border-gray-200">
+            <button onclick="openTab(event, '6daybooking', 'tabcontent3', 'tablinks3')"
+              class="tablinks3 px-8 py-4 border-b-4 border-black hover:border-black">6
+              Days Camp</button>
+            <button onclick="openTab(event, '3daybooking', 'tabcontent3', 'tablinks3')"
+              class="tablinks3 px-8 py-4 border-b-4 hover:border-black">3 Days
+              Camp</button>
+          </nav>
+          <div id="6daybooking" class="tabcontent3 overflow-x-scroll w-full flex flex-wrap">
+            <table class="w-full table-auto schedule-table">
+              <thead>
+                <tr>
+                  <td class="border border-white bg-gray-200"></td>
+                  <td class="border border-white bg-gray-200">
+                    OBN Camp
+                  </td>
+                  <td class="border border-white bg-gray-200">
+                    Total Athlete
+                  </td>
+                  <td class="border border-white bg-gray-200">
+                    Breakthrough
+                  </td>
+                  <td class="border border-white bg-gray-200">
+                    Game Changer
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div>Sun, Oct 3 - Sat, Oct 9</div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row1-1" name="row1" value="all" checked>
+                      <label for="row1-1">$1,000</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row1-2" name="row1" value="all" checked>
+                      <label for="row1-2">$1,500</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row1-3" name="row1" value="all" checked>
+                      <label for="row1-3">$2,300</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row1-4" name="row1" value="all" checked>
+                      <label for="row1-4">$2,500</label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>Sun, Oct 10 - Sat, Oct 16</div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row2-1" name="row2" value="all" checked>
+                      <label for="row2-1">$1,000</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row2-2" name="row2" value="all" checked>
+                      <label for="row2-2">$1,500</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row2-3" name="row2" value="all" checked>
+                      <label for="row2-3">$2,300</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row2-4" name="row2" value="all" checked>
+                      <label for="row2-4">$2,500</label>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="3daybooking" class="tabcontent3 overflow-x-scroll w-full hidden flex-wrap">
+            <table class="w-full table-auto schedule-table">
+              <thead>
+                <tr>
+                  <td class="border border-white bg-gray-200"></td>
+                  <td class="border border-white bg-gray-200">
+                    OBN Camp
+                  </td>
+                  <td class="border border-white bg-gray-200">
+                    Total Athlete
+                  </td>
+                  <td class="border border-white bg-gray-200">
+                    Breakthrough
+                  </td>
+                  <td class="border border-white bg-gray-200">
+                    Game Changer
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div>Sun, Oct 3 - Sat, Oct 9</div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row1-1" name="row1" value="all" checked>
+                      <label for="row1-1">$1,000</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row1-2" name="row1" value="all" checked>
+                      <label for="row1-2">$1,500</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row1-3" name="row1" value="all" checked>
+                      <label for="row1-3">$2,300</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row1-4" name="row1" value="all" checked>
+                      <label for="row1-4">$2,500</label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>Sun, Oct 10 - Sat, Oct 16</div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row2-1" name="row2" value="all" checked>
+                      <label for="row2-1">$1,000</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row2-2" name="row2" value="all" checked>
+                      <label for="row2-2">$1,500</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row2-3" name="row2" value="all" checked>
+                      <label for="row2-3">$2,300</label>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="radio-toolbar flex justify-center">
+                      <input type="radio" id="row2-4" name="row2" value="all" checked>
+                      <label for="row2-4">$2,500</label>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full py-12 border-b">
+      <div class="container flex flex-wrap mx-auto">
+        <div class="w-full mb-8">
+          <p class="text-xl">Step 3</p>
+          <h4 class="text-3xl uppercase font-bold">Customize your order</h4>
+        </div>
+        <div class="w-full mb-8">
+          <h4 class="uppercase font-bold mb-8">Choose your camp gear</h4>
+          <div class="flex flex-wrap w-full">
+            <div class="w-full md:w-1/5 sm:w-1/3 border border-gray-200">
+              <img src="assets/african-american-teenage-boy-concentrated.jpg" class="w-full" alt="">
+              <div class="flex p-2">
+                <div>
+                  <h4 class="font-bold">OBN Elite Gear</h4>
+                  <p class="alternate-font text-sm">Includes: 5x sleeveless jerseys, Nike air force 1s, 3x sweat shirts
+                  </p>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold">$188</h4>
+                </div>
+              </div>
+              <button class="w-full border-t border-gray-200 hover:bg-black hover:text-white p-2">Select</button>
+            </div>
+            <div class="w-full md:w-1/5 sm:w-1/3 border border-gray-200">
+              <img src="assets/african-american-teenage-boy-concentrated.jpg" class="w-full" alt="">
+              <div class="flex p-2">
+                <div>
+                  <h4 class="font-bold">OBN Elite Gear</h4>
+                  <p class="alternate-font text-sm">Includes: 5x sleeveless jerseys, Nike air force 1s, 3x sweat shirts
+                  </p>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold">$188</h4>
+                </div>
+              </div>
+              <button class="w-full border-t border-gray-200 hover:bg-black hover:text-white p-2">Select</button>
+            </div>
+            <div class="w-full md:w-1/5 sm:w-1/3 border border-gray-200">
+              <img src="assets/african-american-teenage-boy-concentrated.jpg" class="w-full" alt="">
+              <div class="flex p-2">
+                <div>
+                  <h4 class="font-bold">OBN Elite Gear</h4>
+                  <p class="alternate-font text-sm">Includes: 5x sleeveless jerseys, Nike air force 1s, 3x sweat shirts
+                  </p>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold">$188</h4>
+                </div>
+              </div>
+              <button class="w-full border-t border-gray-200 hover:bg-black hover:text-white p-2">Select</button>
+            </div>
+            <div class="w-full md:w-1/5 sm:w-1/3 border border-gray-200">
+              <img src="assets/african-american-teenage-boy-concentrated.jpg" class="w-full" alt="">
+              <div class="flex p-2">
+                <div>
+                  <h4 class="font-bold">OBN Elite Gear</h4>
+                  <p class="alternate-font text-sm">Includes: 5x sleeveless jerseys, Nike air force 1s, 3x sweat shirts
+                  </p>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold">$188</h4>
+                </div>
+              </div>
+              <button class="w-full border-t border-gray-200 hover:bg-black hover:text-white p-2">Select</button>
+            </div>
+            <div class="w-full md:w-1/5 sm:w-1/3 border border-gray-200">
+              <img src="assets/african-american-teenage-boy-concentrated.jpg" class="w-full" alt="">
+              <div class="flex p-2">
+                <div>
+                  <h4 class="font-bold">OBN Elite Gear</h4>
+                  <p class="alternate-font text-sm">Includes: 5x sleeveless jerseys, Nike air force 1s, 3x sweat shirts
+                  </p>
+                </div>
+                <div>
+                  <h4 class="text-xl font-bold">$188</h4>
+                </div>
+              </div>
+              <button class="w-full border-t border-gray-200 hover:bg-black hover:text-white p-2">Select</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-full py-12 border-b mb-32">
+      <div class="container flex flex-wrap mx-auto">
+        <div class="w-full mb-8">
+          <p class="text-xl">Final Step</p>
+          <h4 class="text-3xl uppercase font-bold">ENTER CAMPER INFORMATION</h4>
+        </div>
+        <div class="flex w-full mb-4 flex-wrap">
+          <label class="w-full mb-4">DO YOU REQUIRE A REFUNDABLE CAMP RESERVATION? <i class="fa fa-help"></i></label>
+          <div class="radio-toolbar">
+            <input type="radio" id="refund" name="refund" value="true" checked>
+            <label for="refund">Yes +$180</label>
+
+            <input type="radio" id="norefund" name="refund" value="false">
+            <label for="norefund">No</label>
+          </div>
+        </div>
+        <h4 class="w-full uppercase text-xl font-bold mb-4">Camper Information</h4>
+        <div class="flex w-full flex-wrap mb-4">
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">First name</span>
+            <input type="text" class="p-2 w-full border border-black" />
+          </div>
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">Last name</span>
+            <input type="text" class="p-2 w-full border border-black" />
+          </div>
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">Phone number<span class="text-sm font-light"> - include country code
+                (+234)</span></span>
+            <input type="text" class="p-2 w-full border border-black" />
+          </div>
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">Email</span>
+            <input type="text" class="p-2 w-full border border-black" />
+          </div>
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">Position</span>
+            <select class="p-2 w-full border border-black">
+              <option>Select position</option>
+              <option>Center</option>
+              <option>Point Guard</option>
+              <option>Power Forward</option>
+              <option>Wing</option>
+            </select>
+          </div>
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">Size</span>
+            <select class="p-2 w-full border border-black">
+              <option value="">Select Size</option>
+              <option value="Youth S">Youth - S</option>
+              <option value="Youth M">Youth - M</option>
+              <option value="Youth L">Youth - L</option>
+              <option value="Youth XLarge">Youth - XL</option>
+              <option value="Adult S">Adult - S</option>
+              <option value="Adult M">Adult - M</option>
+              <option value="Adult L">Adult - L</option>
+              <option value="Adult XLarge">Adult - XL</option>
+              <option value="Adult XXLarge">Adult - XXL</option>
+            </select>
+          </div>
+        </div>
+        <h4 class="w-full uppercase text-xl font-bold mb-4">Parent/Guardian Information</h4>
+        <div class="flex w-full flex-wrap mb-4">
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">First name</span>
+            <input type="text" class="p-2 w-full border border-black" />
+          </div>
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">Last name</span>
+            <input type="text" class="p-2 w-full border border-black" />
+          </div>
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">Phone number<span class="text-sm font-light"> - include country code
+                (+234)</span></span>
+            <input type="text" class="p-2 w-full border border-black" />
+          </div>
+          <div class="flex mb-4 flex-wrap flex-column pr-4 w-full sm:w-1/2">
+            <span class="w-full">Email</span>
+            <input type="text" class="p-2 w-full border border-black" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="booking-summary">
+      <div class="container mx-auto items-center flex flex-wrap shadow-xl text-white p-4 bg-black">
+        <section class="flex details hidden py-4 flex-wrap w-full">
+          <div class="w-full mb-4">
+            <p class="text-lg">Step 1</p>
+            <h4 class="text-xl yellow-text uppercase font-bold">CHOOSE BASKETBALL CAMP OPTIONS</h4>
+            <div class="w-full flex-wrap alternate-font my-2 flex">
+              <p class="w-full"><strong>Housing Options:</strong> Boarding</p>
+              <p class="w-full"><strong>Camper Age:</strong> 13</p>
+            </div>
+          </div>
+          <div class="w-full mb-4">
+            <p class="text-lg">Step 2</p>
+            <h4 class="text-xl yellow-text uppercase font-bold">CHOOSE Your camp</h4>
+            <div class="w-full flex-wrap alternate-font my-2 flex">
+              <p class="w-full"><strong>OBN Camp:</strong> 12/20/2020 - 12/24/2020</p>
+              <p class="w-full"><strong>Total Athlete:</strong> 12/20/2020 - 12/24/2020</p>
+            </div>
+          </div>
+          <div class="w-full mb-4">
+            <p class="text-lg">Step 3</p>
+            <h4 class="text-xl yellow-text uppercase font-bold">Customize your order</h4>
+            <div class="w-full flex-wrap alternate-font my-2 flex">
+              <p class="w-full"><strong>OBN Gear:</strong> Elite Package</p>
+              <p class="w-full"><strong>Extra Services</strong></p>
+              <ul class="pl-4">
+                <li>Laundry Services</li>
+                <li>Airport pickup</li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full mb-4">
+            <p class="text-lg">Final Step</p>
+            <h4 class="text-xl yellow-text uppercase font-bold">Camper Details</h4>
+            <div class="w-full flex-wrap alternate-font my-2 flex">
+              <p class="w-full"><strong>Housing Options:</strong> Boarding</p>
+              <p class="w-full"><strong>Camper Age:</strong> 13</p>
+            </div>
+          </div>
+        </section>
+        <section class="flex w-full flex-wrap">
+          <div class="w-1/4">
+            <h4 class="text-xl">$1,269.00</h4>
+            <p class="uppercase text-xs sm:text-sm font-light">CAMP SUBTOTAL</p>
+          </div>
+          <div class="w-3/4 flex items-center justify-end">
+            <h4 class="text-xl mr-4 hidden sm:inline-block">Final Step: Camper Details</h4>
+            <button class="border border-white py-2 px-4 mr-4">Add to Cart</button>
+            <button class="toggle-summary border border-white p-2">
+              <i class="fa fa-arrow-up"></i>
+            </button>
+          </div>
+        </section>
+      </div>
+    </section>
+  </section>
+
+  <!--
+    To Do:
+    - Add hover effects
+    - Add smooth scroll navigation
+    - Add page animations
+  -->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.slick-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        variableWidth: true,
+        infinite: true,
+        prevArrow: "<div type='button' class='slick-prev pull-left'></div>",
+        nextArrow: "<div type='button' class='slick-next pull-right'></div>"
+      });
+      $('.tab-nav').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        variableWidth: true,
+        arrows: false
+      });
+      $(".answer").slice(1).slideUp();
+      $(".question").click(function () {
+        $('.answer').not(this).slideUp("slow");
+        $(this).next(".answer").slideToggle("slow");
+      });
+      $("#dob").datepicker({
+        changeMonth: true,
+        changeYear: true,
+        maxDate: 0
+      });
+      $(".toggle-summary").click(function () {
+        $('.booking-summary .details').slideToggle(1000, function () {
+          if ($('.booking-summary .details').is(':visible')) {
+            $('.toggle-summary i').removeClass('fa-arrow-up')
+            $('.toggle-summary i').addClass('fa-arrow-down')
+          } else {
+            $('.toggle-summary i').addClass('fa-arrow-up')
+            $('.toggle-summary i').removeClass('fa-arrow-down')
+          }
+        });
+      });
+      $('#close-modal').click(function () {
+        $('#booking-modal').hide('slide', { direction: 'down' }, 1000)
+      })
+      $('#register-btn').click(function () {
+        $('#booking-modal').show('slide', { direction: 'down' }, 1000)
+      });
+      $('#mobile-toggle').click(function () {
+        $('#menu').slideToggle()
+      })
+    });
+    function openTab(evt, tabName, tabGroupClass, tabLinkClass) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName(tabGroupClass);
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        tabcontent[i].classList.add("animate__animated", "animate__fadeOut");
+        tabcontent[i].classList.remove("animate__fadeIn");
+      }
+      tablinks = document.getElementsByClassName(tabLinkClass);
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" border-black", "");
+      }
+      document.getElementById(tabName).style.display = "flex";
+      document.getElementById(tabName).classList.add("animate__animated", "animate__fadeIn");
+      document.getElementById(tabName).classList.remove("animate__fadeOut");
+      evt.currentTarget.className += " border-black";
+    }
+  </script>
+</body>
+
+</html>
