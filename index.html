@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
   <link rel="manifest" href="assets/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileColor" content="#fdc101">
   <meta name="theme-color" content="#ffffff">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet">
@@ -25,35 +25,47 @@
 </head>
 
 <body>
-  <header class="w-full leaderboard z-10" id="header">
-    <div class="container mx-auto flex flex-wrap items-center py-2 justify-between">
-      <div class="w-1/5 logo">
-        <a href="/">
-          <img src="assets/obn.png" class="h-16" alt="">
-        </a>
-      </div>
-      <div class="w-4/5 flex justify-end flex-wrap relative">
-        <button id="mobile-toggle" class="flex sm:hidden text-white">
-          <i class="fa fa-bars text-2xl"></i>
-        </button>
-        <nav id="menu" class="bg-black absolute sm:relative mobile-menu sm:bg-transparent menu w-full sm:w-auto hidden sm:flex flex-wrap">
-          <ul class="flex flex-wrap">
-            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Home</a></li>
-            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">About Us</a></li>
-            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Services</a></li>
-            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Shop</a></li>
-            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Contact Us</a></li>
-            <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="/">Book Now</a></li>
-          </ul>
-        </nav>
+  <header class="w-full leaderboard z-10" id="home">
+    <div id="header-menu">
+      <div class="container mx-auto flex flex-wrap items-center py-2 justify-between">
+        <div class="w-1/5 logo">
+          <a href="#">
+            <img src="assets/obn.png" class="h-16" alt="">
+          </a>
+        </div>
+        <div class="w-4/5 flex justify-end flex-wrap relative">
+          <button id="mobile-toggle" class="flex sm:hidden text-white">
+            <i class="fa fa-bars text-2xl"></i>
+          </button>
+          <nav id="menu"
+            class="bg-black absolute sm:relative mobile-menu sm:bg-transparent menu w-full sm:w-auto hidden sm:flex flex-wrap">
+            <ul class="flex flex-wrap">
+              <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="#home">Home</a></li>
+              <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="#about-us">About Us</a>
+              </li>
+              <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="#services">Services</a>
+              </li>
+              <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="#">Shop</a></li>
+              <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="#contact-us">Contact
+                  Us</a></li>
+              <li class="w-full sm:w-auto"><a class="p-4 text-white inline-block w-full" href="#camp-booking">Book Now</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
     <main class="w-full flex ">
       <section class="container flex mx-auto h-full items-center justify-center">
         <section class="text-center">
-          <span class="tracking-tight leading-none font-bold text-6xl text-white uppercase">
-            Experience<br />the sport<br /><span class="text-transparent stroke-text__white">One by One</span>
-          </span>
+          <div class="tracking-tight leading-none font-bold text-6xl text-white uppercase">
+            <div class="animate__animated animate__lightSpeedInLeft animate__delay-2s">
+              Experience<br />the sport
+            </div>
+            <div
+              class="animate__animated animate__lightSpeedInRight animate__delay-2s text-transparent stroke-text__white">
+              One by One</div>
+          </div>
         </section>
       </section>
     </main>
@@ -74,7 +86,7 @@
     </section>
   </section>
 
-  <section id="what-we-do" class="w-full py-24 text-white grained-background">
+  <section id="about-us" class="w-full py-24 text-white grained-background">
     <section class="container items-center flex flex-wrap mx-auto">
       <div class="section-img flex items-center justify-center w-full sm:w-1/2">
         <div class="image-frame">
@@ -96,7 +108,10 @@
           nobis dolorum molestiae consectetur perspiciatis alias inventore mollitia dolor autem. Accusamus odio qui
           magnam perspiciatis. </p>
         <p>
-          <a class="inline-block border border-white border-solid py-3 px-8" href="">Learn More</a>
+          <a class="transition duration-200 ease-in-out hover:bg-yellow hover:border-yellow hover:text-white inline-block border border-white border-solid py-3 px-8"
+            href="#">
+            Learn More
+          </a>
         </p>
       </div>
     </section>
@@ -104,10 +119,10 @@
 
   <section id="play" class="w-full text-white raptors-background h-64">
     <div class="container items-center h-full justify-center flex mx-auto">
-      <a class="border border-white border-solid rounded-full hover:bg-orange-400 hover:border-orange-400 w-48 items-center justify-center flex h-48"
-        href="">
+      <button
+        class="transition duration-500 ease-in-out  border border-white border-solid rounded-full hover:bg-yellow hover:border-yellow w-48 items-center justify-center flex h-48">
         <span class="text-transparent rounded font-bold uppercase text-6xl stroke-text__white">Play</span>
-      </a>
+      </button>
     </div>
   </section>
 
@@ -118,7 +133,8 @@
         <p class="tracking-tight leading-none font-bold text-6xl text-white uppercase">Only a few<br /><span
             class="text-transparent stroke-text__white">steps to begin</span></p>
         <p>
-          <a class="inline-block border border-white border-solid py-3 px-8" href="">Learn More</a>
+          <a class="transition duration-200 ease-in-out hover:bg-yellow hover:border-yellow inline-block border border-white border-solid py-3 px-8"
+            href="#">Learn More</a>
         </p>
       </div>
       <div class="section-img flex items-center justify-center w-full sm:w-1/2">
@@ -149,7 +165,7 @@
     </section>
   </section>
 
-  <section id="camp-overview" class="py-12 border-b border-gray-400 w-full">
+  <section id="services" class="py-12 border-b border-gray-400 w-full">
     <section class="container mx-auto">
       <nav class="tab-nav flex mb-4 border-b border-t border-gray-200">
         <button onclick="openTab(event, 'overview', 'tabcontent', 'tablinks')"
@@ -316,7 +332,7 @@
     </section>
   </section>
 
-  <section id="camp-plans" class="py-12 w-full">
+  <section id="book-now" class="py-12 w-full">
     <section class="container mx-auto">
       <nav class="tab-nav flex mb-4 border-b border-t border-gray-200">
         <button onclick="openTab(event, '6day', 'tabcontent2', 'tablinks2')"
@@ -337,10 +353,9 @@
           <thead>
             <tr>
               <td rowspan="2">
-                <a href="#"
-                  class="border-double border-4 border-gray-600 rounded px-4 text-transparent uppercase stroke-text__black font-bold text-4xl ">
+                <div class="border-double border-4 border-gray-600 rounded px-4 text-transparent uppercase stroke-text__black font-bold text-4xl ">
                   Recommended
-                </a>
+              </div>
               </td>
               <td>
                 <div class="">Foundation of All Camps</div>
@@ -562,7 +577,7 @@
                   <a class="underline text-orange-400" href="#choosing-camp">View Helpful Tips</a>
                   <a class="underline text-orange-400" href="#camp-experience">View Camp Details</a>
                   <a class="underline text-orange-400" href="#faq-widget">View FAQs</a>
-                  <a class="underline text-orange-400" href="/special-rates">View Special Rates</a>
+                  <a class="underline text-orange-400" href="#special-rates">View Special Rates</a>
                 </nav>
                 <div class="flex justify-end items-center">
                   <span class="mr-4">Boarding Included?</span>
@@ -575,28 +590,32 @@
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl">$2,529</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1030">$3,049</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white  border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1120">$3,429</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1250">$3,949</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
@@ -847,28 +866,32 @@
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl">$2,529</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1030">$3,049</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1120">$3,429</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1250">$3,949</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
@@ -1119,28 +1142,32 @@
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl">$2,529</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1030">$3,049</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1120">$3,429</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1250">$3,949</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
@@ -1391,28 +1418,32 @@
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl">$2,529</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1030">$3,049</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1120">$3,429</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
               <td class="text-center">
                 <div class="uppercase font-bold text-3xl" data-boarding-fee="1250">$3,949</div>
                 <div class="alternate-font text-gray-600 mb-4 text-sm">Avg. Price</div>
-                <a href="#booknow" class="border uppercase inline-block border-black px-4 py-2">
+                <a href="#camp-booking"
+                  class="hover:bg-black hover:text-white border uppercase inline-block border-black px-4 py-2">
                   Book Now
                 </a>
               </td>
@@ -1552,9 +1583,9 @@
               <div class="flex mb-4 items-center text-left">
                 <span class="fa fa-envelope pr-4"></span>
                 <div>
-                  <p class="alternate-font">
-                    info@imgacademy.com
-                  </p>
+                  <a href="mailto:info@obn.com" class="alternate-font">
+                    info@obn.com
+                  </a>
                 </div>
               </div>
               <div class="flex mb-4 items-center text-left">
@@ -1704,8 +1735,8 @@
         <div class="w-full sm:w-2/5">
           <h4 class="font-bold mb-4 uppercase">Contact</h4>
           <div class="alternate-font flex font-light text-sm text-gray-400">
-            <span class="w-1/2">info@obn.com</span>
-            <span class="w-1/2">info@obn.com</span>
+            <a href="mailto:info@obn.com" class="w-1/2">info@obn.com</span>
+            <a href="mailto:info@obn.com" class="w-1/2">info@obn.com</span>
           </div>
         </div>
         <div class="w-full sm:w-1/5">
@@ -1732,7 +1763,7 @@
       </div>
     </div>
     <nav class="flex sticky bg-white top-0 w-full progressbar border-b border-black">
-      <button class="w-1/4 py-4 px-2 yellow-bg">Camp Options</button>
+      <button class="w-1/4 py-4 px-2 bg-yellow">Camp Options</button>
       <button class="w-1/4 py-4 px-2">Choose Camp</button>
       <button class="w-1/4 py-4 px-2">Customize Booking</button>
       <button class="w-1/4 py-4 px-2">Camper Details</button>
@@ -2125,7 +2156,7 @@
         <section class="flex details hidden py-4 flex-wrap w-full">
           <div class="w-full mb-4">
             <p class="text-lg">Step 1</p>
-            <h4 class="text-xl yellow-text uppercase font-bold">CHOOSE BASKETBALL CAMP OPTIONS</h4>
+            <h4 class="text-xl text-yellow uppercase font-bold">CHOOSE BASKETBALL CAMP OPTIONS</h4>
             <div class="w-full flex-wrap alternate-font my-2 flex">
               <p class="w-full"><strong>Housing Options:</strong> Boarding</p>
               <p class="w-full"><strong>Camper Age:</strong> 13</p>
@@ -2133,7 +2164,7 @@
           </div>
           <div class="w-full mb-4">
             <p class="text-lg">Step 2</p>
-            <h4 class="text-xl yellow-text uppercase font-bold">CHOOSE Your camp</h4>
+            <h4 class="text-xl text-yellow uppercase font-bold">CHOOSE Your camp</h4>
             <div class="w-full flex-wrap alternate-font my-2 flex">
               <p class="w-full"><strong>OBN Camp:</strong> 12/20/2020 - 12/24/2020</p>
               <p class="w-full"><strong>Total Athlete:</strong> 12/20/2020 - 12/24/2020</p>
@@ -2141,7 +2172,7 @@
           </div>
           <div class="w-full mb-4">
             <p class="text-lg">Step 3</p>
-            <h4 class="text-xl yellow-text uppercase font-bold">Customize your order</h4>
+            <h4 class="text-xl text-yellow uppercase font-bold">Customize your order</h4>
             <div class="w-full flex-wrap alternate-font my-2 flex">
               <p class="w-full"><strong>OBN Gear:</strong> Elite Package</p>
               <p class="w-full"><strong>Extra Services</strong></p>
@@ -2153,7 +2184,7 @@
           </div>
           <div class="w-full mb-4">
             <p class="text-lg">Final Step</p>
-            <h4 class="text-xl yellow-text uppercase font-bold">Camper Details</h4>
+            <h4 class="text-xl text-yellow uppercase font-bold">Camper Details</h4>
             <div class="w-full flex-wrap alternate-font my-2 flex">
               <p class="w-full"><strong>Housing Options:</strong> Boarding</p>
               <p class="w-full"><strong>Camper Age:</strong> 13</p>
@@ -2235,6 +2266,13 @@
       $('#mobile-toggle').click(function () {
         $('#menu').slideToggle()
       })
+      $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+      });
     });
     function openTab(evt, tabName, tabGroupClass, tabLinkClass) {
       var i, tabcontent, tablinks;
@@ -2253,6 +2291,16 @@
       document.getElementById(tabName).classList.remove("animate__fadeOut");
       evt.currentTarget.className += " border-black";
     }
+    var header = document.getElementById("header-menu");
+    var sticky = header.offsetTop;
+    function stickHeader() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky-header", 'animate__animated', 'animate__slideInDown');
+      } else {
+        header.classList.remove("sticky-header", 'animate__animated', 'animate__slideInDown');
+      }
+    }
+    window.onscroll = function () { stickHeader() };
   </script>
 </body>
 
