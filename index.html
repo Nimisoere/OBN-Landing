@@ -74,7 +74,7 @@
 
   <section id="brands" class="w-full">
     <section class="container mx-auto">
-      <div class="slick-slider" id="slider">
+      <div class="brand-slider" id="slider">
         <div class="slide"><img src="assets/allianz.png" alt=""></div>
         <div class="slide"><img src="assets/capgemini.png" alt=""></div>
         <div class="slide"><img src="assets/deutsche.png" alt=""></div>
@@ -87,7 +87,15 @@
     </section>
   </section>
 
-  <section id="about-us" class="w-full py-24 text-white grained-background">
+  <section id="banner-ad" class="py-12 border-b border-gray-400 w-full">
+    <section class="container items-center flex flex-wrap mx-auto">
+      <div>
+        <img class="" src="assets/2020-holiday-rates-desktop.jpg" alt="">
+      </div>
+    </section>
+  </section>
+
+  <!-- <section id="about-us" class="w-full py-24 text-white grained-background">
     <section class="container items-center flex flex-wrap mx-auto">
       <div class="section-img flex items-center justify-center w-full sm:w-1/2">
         <div class="image-frame">
@@ -164,170 +172,180 @@
         <div class="w-full sm:w-1/4"><img src="assets/timberland-logo.png" alt=""></div>
       </div>
     </section>
-  </section>
+  </section> -->
 
   <section id="services" class="py-12 border-b border-gray-400 w-full">
-    <section class="container mx-auto">
-      <nav class="tab-nav flex mb-4 border-b border-t border-gray-200">
-        <button onclick="openTab(event, 'overview', 'tabcontent', 'tablinks')"
-          class="tablinks px-8 py-4 border-b-4 border-black hover:border-black">Camp
-          Overview</button>
-        <button onclick="openTab(event, 'schedule', 'tabcontent', 'tablinks')"
-          class="tablinks px-8 py-4 border-b-4 hover:border-black">Schedule</button>
-        <button onclick="openTab(event, 'coaching', 'tabcontent', 'tablinks')"
-          class="tablinks px-8 py-4 border-b-4 hover:border-black">Coaching</button>
-        <button onclick="openTab(event, 'achievements', 'tabcontent', 'tablinks')"
-          class="tablinks px-8 py-4 border-b-4 hover:border-black">Achievements</button>
-      </nav>
-      <div id="overview" class="tabcontent w-full flex flex-wrap">
-        <div class="w-full sm:w-1/2 px-2">
-          <h4 class="font-bold mb-4 text-3xl">BASKETBALL CAMP OVERVIEW</h4>
-          <p class="mb-4 alternate-font">
-            IMG Academy boys basketball camps incorporate small-group training sessions as well as position-specific
-            drills that prepare players of all levels for their upcoming tryouts, league season, and even for the
-            collegiate level. The same coaching staff who led IMG to the 2019 GEICO National Championship game works
-            directly with IMG campers to hone their technical, tactical, and strategic skills during each session.
-          </p>
-          <p class="mb-4 alternate-font">
-            Camp programs include on-court group sessions that focus on shooting, dribbling, defense, and more. All
-            basketball campers will receive a post-camp analysis report inclusive of coach feedback and important
-            takeaways.
-          </p>
-        </div>
-        <div class="w-full sm:w-1/2">
-          <img src="assets/obncourt.jpg" class="w-full" alt="">
-        </div>
-      </div>
-      <div id="schedule" class="tabcontent w-full hidden overflow-x-scroll flex-wrap">
-        <table class="schedule-table w-full table-auto">
-          <thead>
-            <tr>
-              <th>&nbsp;</th>
-              <th><span>AM</span> <span>Session</span></th>
-              <th><span>PM</span> <span>Session</span></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Monday</td>
-              <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
-              <td>Performance<br>Skill Drilling<br>Competitive Drills<br>Competition</td>
-            </tr>
-            <tr>
-              <td>Tuesday</td>
-              <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
-              <td>Performance<br>Skill Drilling<br>Game Play/Situations</td>
-            </tr>
-            <tr>
-              <td>Wednesday</td>
-              <td>Regen Shooting<br>Team Drilling Competition</td>
-              <td>Performance<br>Skill Drilling<br>Competitive Drills<br>Competition</td>
-            </tr>
-            <tr>
-              <td>Thursday</td>
-              <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
-              <td>Performance<br>Skill Drilling<br>Game Play/Situations</td>
-            </tr>
-            <tr>
-              <td>Friday</td>
-              <td>Skill Drilling<br>Game Play<br>Classroom</td>
-              <td>Performance<br>Skill Drilling<br>Game Play</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td colspan="3">
-                <p class="alternate-font font-bold">Curriculum includes classroom sessions in coordination with on-court
-                  activity and additional
-                  optional opportunities to train.</p>
-                <p class="alternate-font">OBN Camp Includes:</p>
-                <ul class="alternate-font">
-                  <li>3 Strength &amp; Conditioning Sessions</li>
-                  <li>1 Mental Conditioning Session</li>
-                </ul>
-              </td>
-            </tr>
-          </tfoot>
-        </table>
-      </div>
-      <div id="coaching" class="tabcontent w-full hidden flex-wrap">
-        <div class="w-full">
-          <div class="flex flex-wrap">
-            <div class="w-full sm:w-1/2 px-2 mb-4">
-              <h4 class="font-bold mb-4 text-3xl uppercase">Our coaching staff</h4>
-              <p class="mb-4 alternate-font">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis recusandae praesentium qui
-                voluptas ad, nam, voluptatibus quos impedit eligendi sapiente, consequuntur officiis fugit nesciunt.
-                Rem, numquam? Cum, fugiat illum.Voluptatem vero animi, debitis obcaecati pariatur ea facere dolor enim
-                totam error illo alias repellendus beatae illum distinctio. Omnis id optio cum harum veritatis iure
-                quisquam quo dolore officia reiciendis.
-              </p>
-            </div>
-            <div class="w-full sm:w-1/2">
-              <img src="assets/OBNCourtLettering-1.png" class="w-full" alt="">
-            </div>
+    <section class="container flex flex-wrap mx-auto">
+      <div class="w-full sm:w-1/2 px-2">
+        <nav class="tab-nav flex mb-4 border-b border-t border-gray-200">
+          <button onclick="openTab(event, 'overview', 'tabcontent', 'tablinks')"
+            class="tablinks px-8 py-4 border-b-4 border-black hover:border-black">Camp
+            Overview</button>
+          <button onclick="openTab(event, 'schedule', 'tabcontent', 'tablinks')"
+            class="tablinks px-8 py-4 border-b-4 hover:border-black">Schedule</button>
+          <button onclick="openTab(event, 'coaching', 'tabcontent', 'tablinks')"
+            class="tablinks px-8 py-4 border-b-4 hover:border-black">Coaching</button>
+          <button onclick="openTab(event, 'achievements', 'tabcontent', 'tablinks')"
+            class="tablinks px-8 py-4 border-b-4 hover:border-black">Achievements</button>
+        </nav>
+        <div id="overview" class="tabcontent w-full flex flex-wrap">
+          <div class="w-full px-2">
+            <h4 class="font-bold mb-4 text-3xl">BASKETBALL CAMP OVERVIEW</h4>
+            <p class="mb-4 alternate-font">
+              IMG Academy boys basketball camps incorporate small-group training sessions as well as position-specific
+              drills that prepare players of all levels for their upcoming tryouts, league season, and even for the
+              collegiate level. The same coaching staff who led IMG to the 2019 GEICO National Championship game works
+              directly with IMG campers to hone their technical, tactical, and strategic skills during each session.
+            </p>
+            <p class="mb-4 alternate-font">
+              Camp programs include on-court group sessions that focus on shooting, dribbling, defense, and more. All
+              basketball campers will receive a post-camp analysis report inclusive of coach feedback and important
+              takeaways.
+            </p>
           </div>
         </div>
-        <div class="w-full">
-          <div class="flex flex-wrap">
-            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
-              <img class="w-full" src="https://i.pravatar.cc/300?img=7" alt="">
-              <div class="p-4">
-                <h4 class="uppercase text-xl">Kenneth Cole</h4>
-                <p class="alternate-font">Basketball Coach</p>
+        <div id="schedule" class="tabcontent w-full hidden overflow-x-scroll flex-wrap">
+          <table class="schedule-table w-full table-auto">
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th><span>AM</span> <span>Session</span></th>
+                <th><span>PM</span> <span>Session</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
+                <td>Performance<br>Skill Drilling<br>Competitive Drills<br>Competition</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
+                <td>Performance<br>Skill Drilling<br>Game Play/Situations</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>Regen Shooting<br>Team Drilling Competition</td>
+                <td>Performance<br>Skill Drilling<br>Competitive Drills<br>Competition</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>Skill Drilling<br>Team Drilling<br>Competitive Drills<br>Classroom</td>
+                <td>Performance<br>Skill Drilling<br>Game Play/Situations</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>Skill Drilling<br>Game Play<br>Classroom</td>
+                <td>Performance<br>Skill Drilling<br>Game Play</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">
+                  <p class="alternate-font font-bold">Curriculum includes classroom sessions in coordination with
+                    on-court
+                    activity and additional
+                    optional opportunities to train.</p>
+                  <p class="alternate-font">OBN Camp Includes:</p>
+                  <ul class="alternate-font">
+                    <li>3 Strength &amp; Conditioning Sessions</li>
+                    <li>1 Mental Conditioning Session</li>
+                  </ul>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <div id="coaching" class="tabcontent w-full hidden flex-wrap">
+          <div class="w-full">
+            <div class="flex flex-wrap">
+              <div class="w-full px-2 mb-4">
+                <h4 class="font-bold mb-4 text-3xl uppercase">Our coaching staff</h4>
+                <p class="mb-4 alternate-font">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis recusandae praesentium qui
+                  voluptas ad, nam, voluptatibus quos impedit eligendi sapiente, consequuntur officiis fugit nesciunt.
+                  Rem, numquam? Cum, fugiat illum.Voluptatem vero animi, debitis obcaecati pariatur ea facere dolor enim
+                  totam error illo alias repellendus beatae illum distinctio. Omnis id optio cum harum veritatis iure
+                  quisquam quo dolore officia reiciendis.
+                </p>
               </div>
             </div>
-            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
-              <img class="w-full" src="https://i.pravatar.cc/300?img=3" alt="">
-              <div class="p-4">
-                <h4 class="uppercase text-xl">Kenneth Cole</h4>
-                <p class="alternate-font">Basketball Coach</p>
+          </div>
+          <div class="w-full">
+            <div class="flex flex-wrap">
+              <div class="border w-full md:w-1/3 sm:w-1/3 rounded border-gray-400">
+                <img class="w-full" src="https://i.pravatar.cc/300?img=7" alt="">
+                <div class="p-4">
+                  <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                  <p class="alternate-font">Basketball Coach</p>
+                </div>
               </div>
-            </div>
-            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
-              <img class="w-full" src="https://i.pravatar.cc/300?img=8" alt="">
-              <div class="p-4">
-                <h4 class="uppercase text-xl">Kenneth Cole</h4>
-                <p class="alternate-font">Basketball Coach</p>
+              <div class="border w-full md:w-1/3 sm:w-1/3 rounded border-gray-400">
+                <img class="w-full" src="https://i.pravatar.cc/300?img=3" alt="">
+                <div class="p-4">
+                  <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                  <p class="alternate-font">Basketball Coach</p>
+                </div>
               </div>
-            </div>
-            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
-              <img class="w-full" src="https://i.pravatar.cc/300?img=9" alt="">
-              <div class="p-4">
-                <h4 class="uppercase text-xl">Kenneth Cole</h4>
-                <p class="alternate-font">Basketball Coach</p>
+              <div class="border w-full md:w-1/3 sm:w-1/3 rounded border-gray-400">
+                <img class="w-full" src="https://i.pravatar.cc/300?img=8" alt="">
+                <div class="p-4">
+                  <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                  <p class="alternate-font">Basketball Coach</p>
+                </div>
               </div>
-            </div>
-            <div class="border w-full md:w-1/5 sm:w-1/3 rounded border-gray-400">
-              <img class="w-full" src="https://i.pravatar.cc/300?img=2" alt="">
-              <div class="p-4">
-                <h4 class="uppercase text-xl">Kenneth Cole</h4>
-                <p class="alternate-font">Basketball Coach</p>
+              <div class="border w-full md:w-1/3 sm:w-1/3 rounded border-gray-400">
+                <img class="w-full" src="https://i.pravatar.cc/300?img=9" alt="">
+                <div class="p-4">
+                  <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                  <p class="alternate-font">Basketball Coach</p>
+                </div>
+              </div>
+              <div class="border w-full md:w-1/3 sm:w-1/3 rounded border-gray-400">
+                <img class="w-full" src="https://i.pravatar.cc/300?img=2" alt="">
+                <div class="p-4">
+                  <h4 class="uppercase text-xl">Kenneth Cole</h4>
+                  <p class="alternate-font">Basketball Coach</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="achievements" class="tabcontent w-full hidden flex-wrap">
-        <div class="text-center">
-          <h4 class="text-3xl font-bold">Achievements</h4>
-          <hr class="my-8" />
-          <div class="alternate-font">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error neque quas molestias ratione
-              eligendi mollitia incidunt ullam, pariatur at soluta aspernatur ab ducimus accusamus possimus fuga tempore
-              temporibus! Tempore.Accusantium veniam eos odio error delectus ipsa commodi magni at tempora, cumque
-              molestiae itaque eaque
-              eveniet reiciendis? Similique perferendis quos explicabo atque ab quisquam fuga maxime! Deleniti quas
-              reiciendis sequi?</p>
-            <p>Magnam debitis laudantium nemo itaque nobis sunt enim qui nihil a fuga! Expedita consectetur quidem iusto
-              nisi adipisci. Aspernatur id distinctio, deserunt repudiandae rerum voluptatem eos libero cumque nesciunt
-              sed! Eius, odit tempore magnam explicabo recusandae voluptatum possimus doloribus doloremque illo libero,
-              velit ratione illum impedit sed nulla quis perferendis est quae! Culpa, laborum quis nostrum quaerat
-              exercitationem nulla iste! Quia distinctio neque, hic fuga vel asperiores dignissimos earum, accusantium
-              quas explicabo totam
-              maiores inventore ipsam, delectus illum culpa error numquam! Esse non molestias dolore cumque cupiditate
-              iste, amet enim.</p>
+        <div id="achievements" class="tabcontent w-full hidden flex-wrap">
+          <div class="text-center">
+            <h4 class="text-3xl font-bold">Achievements</h4>
+            <hr class="my-8" />
+            <div class="alternate-font">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error neque quas molestias ratione
+                eligendi mollitia incidunt ullam, pariatur at soluta aspernatur ab ducimus accusamus possimus fuga
+                tempore
+                temporibus! Tempore.Accusantium veniam eos odio error delectus ipsa commodi magni at tempora, cumque
+                molestiae itaque eaque
+                eveniet reiciendis? Similique perferendis quos explicabo atque ab quisquam fuga maxime! Deleniti quas
+                reiciendis sequi?</p>
+              <p>Magnam debitis laudantium nemo itaque nobis sunt enim qui nihil a fuga! Expedita consectetur quidem
+                iusto
+                nisi adipisci. Aspernatur id distinctio, deserunt repudiandae rerum voluptatem eos libero cumque
+                nesciunt
+                sed! Eius, odit tempore magnam explicabo recusandae voluptatum possimus doloribus doloremque illo
+                libero,
+                velit ratione illum impedit sed nulla quis perferendis est quae! Culpa, laborum quis nostrum quaerat
+                exercitationem nulla iste! Quia distinctio neque, hic fuga vel asperiores dignissimos earum, accusantium
+                quas explicabo totam
+                maiores inventore ipsam, delectus illum culpa error numquam! Esse non molestias dolore cumque cupiditate
+                iste, amet enim.</p>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="w-full sm:w-1/2 px-2 flex justify-center items-center">
+        <div class="obn-slider w-full" id="obn-slider">
+          <div class="slide"><img src="assets/slide1.jpg" alt=""></div>
+          <div class="slide"><img src="assets/slide2.jpg" alt=""></div>
+          <div class="slide"><img src="assets/slide3.jpg" alt=""></div>
+          <div class="slide"><img src="assets/slide4.jpg" alt=""></div>
+          <div class="slide"><img src="assets/slide5.jpg" alt=""></div>
         </div>
       </div>
     </section>
@@ -2216,7 +2234,7 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
-      $('.slick-slider').slick({
+      $('.brand-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         variableWidth: true,
@@ -2231,6 +2249,13 @@
         variableWidth: true,
         arrows: false
       });
+      $('#obn-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: false,
+        dots: true
+      })
       $(".answer").slice(1).slideUp();
       $(".question").click(function () {
         $('.answer').not(this).slideUp("slow");

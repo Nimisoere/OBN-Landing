@@ -11,6 +11,7 @@ body {
 .leaderboard {
   height: 500px;
   background: url("../assets/background.jpg") no-repeat;
+  background-size: cover;
 }
 .leaderboard main {
   height: calc(100% - 80px);
@@ -25,15 +26,15 @@ body {
 .stroke-text__black {
   -webkit-text-stroke: 2px black;
 }
-.slick-slider .slide {
+.brand-slider .slide {
   padding: 2rem;
 }
-.slick-slider .slide img {
+.brand-slider .slide img {
   width: auto;
   height: 30px;
   filter: grayscale();
 }
-.slick-slider .slide img:hover {
+.brand-slider .slide img:hover {
   filter: none;
 }
 .slick-next {
